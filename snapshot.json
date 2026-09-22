@@ -1,14 +1,57 @@
 {
   "agy" : {
-    "error" : "agy \/usage timed out",
-    "fetched_at" : "2026-09-22T22:46:27+08:00",
+    "error" : null,
+    "fetched_at" : "2026-09-22T22:52:19+08:00",
     "groups" : [
-
+      {
+        "badge" : "HEALTHY",
+        "display_name" : "AGY_GEMINI",
+        "five_hour" : {
+          "has_open_window" : true,
+          "is_stale" : false,
+          "remaining_fraction" : 0.9755483269691467,
+          "reset_time" : "2026-09-23T02:34:21+08:00",
+          "used_percent" : 2.445167303085327,
+          "window" : "5h"
+        },
+        "key" : "gemini",
+        "source_name" : "Gemini Models",
+        "weekly" : {
+          "has_open_window" : true,
+          "is_stale" : false,
+          "remaining_fraction" : 0.7620184421539307,
+          "reset_time" : "2026-09-23T12:03:01+08:00",
+          "used_percent" : 23.798155784606934,
+          "window" : "weekly"
+        }
+      },
+      {
+        "badge" : "HEALTHY",
+        "display_name" : "AGY_CLAUDE\/GPT",
+        "five_hour" : {
+          "has_open_window" : false,
+          "is_stale" : false,
+          "remaining_fraction" : 1,
+          "reset_time" : "2026-09-23T03:52:18+08:00",
+          "used_percent" : 0,
+          "window" : "5h"
+        },
+        "key" : "claude_gpt",
+        "source_name" : "Claude and GPT models",
+        "weekly" : {
+          "has_open_window" : false,
+          "is_stale" : false,
+          "remaining_fraction" : 1,
+          "reset_time" : "2026-09-29T11:18:25+08:00",
+          "used_percent" : 0,
+          "window" : "weekly"
+        }
+      }
     ]
   },
   "app_build" : null,
   "app_version" : null,
-  "generated_at" : "2026-09-22T22:46:06+08:00",
+  "generated_at" : "2026-09-22T22:52:10+08:00",
   "pricing" : {
     "basis" : "api_equivalent",
     "catalog_schema_version" : 1,
@@ -31,12 +74,12 @@
         "grok",
         "codex"
       ],
-      "end" : "2026-09-22T22:46:06+08:00",
+      "end" : "2026-09-22T22:52:10+08:00",
       "providers" : [
         {
           "cache_hit_rate" : 0.9903993885619647,
-          "cost_share" : 0.6982784013772877,
-          "cost_usd" : 71.2237425,
+          "cost_share" : 0.6982784013772878,
+          "cost_usd" : 71.22374250000004,
           "coverage" : {
             "since" : null,
             "state" : "unknown"
@@ -49,7 +92,7 @@
           "models" : [
             {
               "cache_hit_rate" : 0.9907072305014449,
-              "cost_usd" : 60.730611499999995,
+              "cost_usd" : 60.73061150000004,
               "display_name" : "OPUS_5",
               "message_count" : 308,
               "model" : "claude-opus-5",
@@ -57,7 +100,7 @@
             },
             {
               "cache_hit_rate" : 0.9896804638313902,
-              "cost_usd" : 10.493131000000002,
+              "cost_usd" : 10.493131000000009,
               "display_name" : "SONNET_5",
               "message_count" : 135,
               "model" : "claude-sonnet-5",
@@ -66,13 +109,13 @@
           ],
           "provider" : "claude",
           "quota" : {
-            "captured_at" : "2026-09-22T22:45:25+08:00",
-            "forecast_position" : 0.8736212900099616,
+            "captured_at" : "2026-09-22T22:51:30+08:00",
+            "forecast_position" : 0.8742235936953751,
             "is_stale" : false,
             "period_end" : "2026-09-23T20:00:00+08:00",
             "period_start" : "2026-09-16T20:00:00+08:00",
             "plan_name" : "EST · M1",
-            "used_percent" : 53.462925545454496,
+            "used_percent" : 53.46292554545463,
             "used_percent_inferred" : false
           },
           "total_tokens" : 122534484,
@@ -80,7 +123,7 @@
         },
         {
           "cache_hit_rate" : 0.9111963931476013,
-          "cost_share" : 0.02964941243159137,
+          "cost_share" : 0.02964941243159136,
           "cost_usd" : 3.0242122800000004,
           "coverage" : {
             "since" : null,
@@ -136,7 +179,7 @@
           "provider" : "codex",
           "quota" : {
             "captured_at" : "2026-09-22T18:22:37+08:00",
-            "forecast_position" : 0.46238782440149595,
+            "forecast_position" : 0.4629901280869094,
             "is_stale" : false,
             "period_end" : "2026-09-26T17:05:14+08:00",
             "period_start" : "2026-09-19T17:05:14+08:00",
@@ -149,7 +192,7 @@
         },
         {
           "cache_hit_rate" : 0.8884597151345084,
-          "cost_share" : 0.2720721861911209,
+          "cost_share" : 0.2720721861911208,
           "cost_usd" : 27.751107999999984,
           "coverage" : {
             "since" : null,
@@ -181,7 +224,7 @@
           "provider" : "grok",
           "quota" : {
             "captured_at" : "2026-09-22T01:43:43+08:00",
-            "forecast_position" : 0.7372182079991967,
+            "forecast_position" : 0.73782051168461,
             "is_stale" : false,
             "period_end" : "2026-09-24T18:54:56+08:00",
             "period_start" : "2026-09-17T18:54:56+08:00",
@@ -195,7 +238,7 @@
       ],
       "range" : "today",
       "start" : "2026-09-22T00:00:00+08:00",
-      "total_cost_usd" : 101.99906277999999,
+      "total_cost_usd" : 101.99906278000003,
       "total_messages" : 809
     },
     {
@@ -204,12 +247,12 @@
         "grok",
         "codex"
       ],
-      "end" : "2026-09-22T22:46:06+08:00",
+      "end" : "2026-09-22T22:52:10+08:00",
       "providers" : [
         {
           "cache_hit_rate" : 0.9897852378258174,
-          "cost_share" : 0.7807814595668555,
-          "cost_usd" : 182.29606099999998,
+          "cost_share" : 0.7807814595668556,
+          "cost_usd" : 182.2960610000001,
           "coverage" : {
             "since" : null,
             "state" : "unknown"
@@ -222,7 +265,7 @@
           "models" : [
             {
               "cache_hit_rate" : 0.9898015732506258,
-              "cost_usd" : 171.80292999999998,
+              "cost_usd" : 171.8029300000001,
               "display_name" : "OPUS_5",
               "message_count" : 834,
               "model" : "claude-opus-5",
@@ -230,7 +273,7 @@
             },
             {
               "cache_hit_rate" : 0.9896804638313902,
-              "cost_usd" : 10.493131000000002,
+              "cost_usd" : 10.493131000000009,
               "display_name" : "SONNET_5",
               "message_count" : 135,
               "model" : "claude-sonnet-5",
@@ -239,13 +282,13 @@
           ],
           "provider" : "claude",
           "quota" : {
-            "captured_at" : "2026-09-22T22:45:25+08:00",
-            "forecast_position" : 0.8736212900099616,
+            "captured_at" : "2026-09-22T22:51:30+08:00",
+            "forecast_position" : 0.8742235936953751,
             "is_stale" : false,
             "period_end" : "2026-09-23T20:00:00+08:00",
             "period_start" : "2026-09-16T20:00:00+08:00",
             "plan_name" : "EST · M1",
-            "used_percent" : 53.462925545454496,
+            "used_percent" : 53.46292554545463,
             "used_percent_inferred" : false
           },
           "total_tokens" : 272497629,
@@ -253,7 +296,7 @@
         },
         {
           "cache_hit_rate" : 0.9172464203575553,
-          "cost_share" : 0.02860783338505999,
+          "cost_share" : 0.028607833385059976,
           "cost_usd" : 6.679327839999999,
           "coverage" : {
             "since" : null,
@@ -309,7 +352,7 @@
           "provider" : "codex",
           "quota" : {
             "captured_at" : "2026-09-22T18:22:37+08:00",
-            "forecast_position" : 0.46238782440149595,
+            "forecast_position" : 0.4629901280869094,
             "is_stale" : false,
             "period_end" : "2026-09-26T17:05:14+08:00",
             "period_start" : "2026-09-19T17:05:14+08:00",
@@ -322,7 +365,7 @@
         },
         {
           "cache_hit_rate" : 0.906900927216624,
-          "cost_share" : 0.1906107070480844,
+          "cost_share" : 0.1906107070480843,
           "cost_usd" : 44.50359399999996,
           "coverage" : {
             "since" : null,
@@ -354,7 +397,7 @@
           "provider" : "grok",
           "quota" : {
             "captured_at" : "2026-09-22T01:43:43+08:00",
-            "forecast_position" : 0.7372182079991967,
+            "forecast_position" : 0.73782051168461,
             "is_stale" : false,
             "period_end" : "2026-09-24T18:54:56+08:00",
             "period_start" : "2026-09-17T18:54:56+08:00",
@@ -368,7 +411,7 @@
       ],
       "range" : "week",
       "start" : "2026-09-21T00:00:00+08:00",
-      "total_cost_usd" : 233.47898283999993,
+      "total_cost_usd" : 233.47898284000004,
       "total_messages" : 1664
     },
     {
@@ -377,12 +420,12 @@
         "grok",
         "codex"
       ],
-      "end" : "2026-09-22T22:46:06+08:00",
+      "end" : "2026-09-22T22:52:10+08:00",
       "providers" : [
         {
           "cache_hit_rate" : 0.9866425936785757,
-          "cost_share" : 0.7162913647695923,
-          "cost_usd" : 1551.9655706499989,
+          "cost_share" : 0.7162913647695919,
+          "cost_usd" : 1551.9655706499952,
           "coverage" : {
             "since" : null,
             "state" : "unknown"
@@ -395,7 +438,7 @@
           "models" : [
             {
               "cache_hit_rate" : 0.9882671067471488,
-              "cost_usd" : 1428.4796742499987,
+              "cost_usd" : 1428.4796742499952,
               "display_name" : "OPUS_5",
               "message_count" : 6955,
               "model" : "claude-opus-5",
@@ -403,7 +446,7 @@
             },
             {
               "cache_hit_rate" : 0.9818358934147672,
-              "cost_usd" : 120.47971780000006,
+              "cost_usd" : 120.47971779999996,
               "display_name" : "SONNET_5",
               "message_count" : 1669,
               "model" : "claude-sonnet-5",
@@ -420,13 +463,13 @@
           ],
           "provider" : "claude",
           "quota" : {
-            "captured_at" : "2026-09-22T22:45:25+08:00",
-            "forecast_position" : 0.8736212900099616,
+            "captured_at" : "2026-09-22T22:51:30+08:00",
+            "forecast_position" : 0.8742235936953751,
             "is_stale" : false,
             "period_end" : "2026-09-23T20:00:00+08:00",
             "period_start" : "2026-09-16T20:00:00+08:00",
             "plan_name" : "EST · M1",
-            "used_percent" : 53.462925545454496,
+            "used_percent" : 53.46292554545463,
             "used_percent_inferred" : false
           },
           "total_tokens" : 2369302829,
@@ -434,7 +477,7 @@
         },
         {
           "cache_hit_rate" : 0.941060393983786,
-          "cost_share" : 0.04837702307192848,
+          "cost_share" : 0.04837702307192856,
           "cost_usd" : 104.81694728000005,
           "coverage" : {
             "since" : null,
@@ -498,7 +541,7 @@
           "provider" : "codex",
           "quota" : {
             "captured_at" : "2026-09-22T18:22:37+08:00",
-            "forecast_position" : 0.46238782440149595,
+            "forecast_position" : 0.4629901280869094,
             "is_stale" : false,
             "period_end" : "2026-09-26T17:05:14+08:00",
             "period_start" : "2026-09-19T17:05:14+08:00",
@@ -511,7 +554,7 @@
         },
         {
           "cache_hit_rate" : 0.9056631208269893,
-          "cost_share" : 0.23533161215847911,
+          "cost_share" : 0.2353316121584795,
           "cost_usd" : 509.8854708000002,
           "coverage" : {
             "since" : null,
@@ -551,7 +594,7 @@
           "provider" : "grok",
           "quota" : {
             "captured_at" : "2026-09-22T01:43:43+08:00",
-            "forecast_position" : 0.7372182079991967,
+            "forecast_position" : 0.73782051168461,
             "is_stale" : false,
             "period_end" : "2026-09-24T18:54:56+08:00",
             "period_start" : "2026-09-17T18:54:56+08:00",
@@ -565,12 +608,12 @@
       ],
       "range" : "month",
       "start" : "2026-09-01T00:00:00+08:00",
-      "total_cost_usd" : 2166.6679887299993,
+      "total_cost_usd" : 2166.6679887299956,
       "total_messages" : 13225
     }
   ],
   "scan" : {
-    "duration_seconds" : 40.878023982048035,
+    "duration_seconds" : 39.551949977874756,
     "provider_failed" : [
 
     ]
